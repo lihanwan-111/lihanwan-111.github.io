@@ -6,6 +6,88 @@
     <title>简历</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+    <style>
+        body {
+    font-family: "Microsoft YaHei", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f7;
+}
+
+.resume-container {
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.left-column {
+    width: 30%;
+    background-color: #e0f7fa;
+    padding: 20px;
+}
+
+.right-column {
+    width: 70%;
+    padding: 20px;
+}
+
+.profile-photo {
+    width: 200px; /* 设置容器宽度 */
+    height: 250px; /* 设置容器高度，与宽度相同形成正方形 */
+    margin: 0 auto 20px; /* 居中显示 */
+    border: 5px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* 隐藏超出部分 */
+}
+.profile-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 保持图片比例并填满容器 */
+}
+ 
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    color: #00796b;
+    border-bottom: 2px solid #00796b;
+    padding-bottom: 5px;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+}
+
+.section h2 .icon {
+    margin-right: 5px;
+}
+
+.section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.section ul li {
+    margin-bottom: 5px;
+    line-height: 1.4;
+}
+
+.name-section {
+    text-align: center; /* 文本居中 */
+}
+ 
+.name-section h1 {
+    margin: 0;
+    color: #151615; /* 与标题颜色一致 */
+}
+.center-text p {
+    text-align: center; /* 自我评价文本
+}
+        </style>
 <body>
     <div class="resume-container">
         <div class="left-column">
